@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%if total is not None%}
+    <p>{{total}}</p>
+    {%endif%}
+    <form>
+        <label>
+            <p>Burgers</p>
+            <input type="number" name="burgers">
+        </label>
+        <label>
+            <p>Fries</p>
+            <input type="number" name="fries">
+        </label>
+        <label>
+            <p>Drinks</p>
+            <input type="number" name="drinks">
+        </label>
+        <button>Order</button>
+</body>
+</html>

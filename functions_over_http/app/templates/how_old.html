@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%if age is not None%}
+    <p>{{age}}</p>
+    {%endif%}
+    <form>
+        <label>
+            <p>Current Year</p>
+            <input type="number" name="this_year">
+        </label>
+        <label>
+            <p>Birth Year</p>
+            <input type="number" name="birth_year">
+        </label>
+        <button>Calculate</button>
+    </form>
+</body>
+</html>
